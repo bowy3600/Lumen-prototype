@@ -12,6 +12,7 @@ import { SectionWrapper, StaggerChild } from "@/components/section-wrapper"
 import { MagneticButton } from "@/components/magnetic-button"
 import { CTAModal } from "@/components/cta-modal"
 import { Button } from "@/components/ui/button"
+import { CircularAnimation } from "@/components/circular-animation"
 
 const barData = [
   { v: 40 }, { v: 65 }, { v: 50 }, { v: 80 }, { v: 60 }, { v: 90 }, { v: 75 },
@@ -22,8 +23,9 @@ const lineData = [
 
 export function Services() {
   return (
-    <SectionWrapper id="services" className="bg-background py-16 md:py-24">
-      <div className="mx-auto max-w-7xl px-4 md:px-6">
+    <SectionWrapper id="services" className="bg-background py-16 md:py-24 relative overflow-hidden">
+      <CircularAnimation />
+      <div className="mx-auto max-w-7xl px-4 md:px-6 relative z-10">
         {/* Header */}
         <div className="mb-12 text-center md:mb-16">
           <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">

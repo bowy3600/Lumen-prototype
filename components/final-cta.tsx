@@ -53,7 +53,7 @@ export function FinalCTA() {
       </div>
 
       <div className="relative z-10 mx-auto max-w-3xl px-4 text-center md:px-6">
-        <h2 className="text-balance text-3xl font-bold tracking-tight text-gray-900 md:text-4xl lg:text-5xl">
+        <h2 className="text-balance text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl lg:text-5xl">
           {"Pret a deleguer votre complexite ?"}
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-pretty text-base leading-relaxed text-gray-600 md:text-lg">

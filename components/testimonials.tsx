@@ -87,7 +87,7 @@ export function Testimonials() {
           <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">
             Temoignages
           </p>
-          <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl lg:text-5xl">
+          <h2 className="text-balance text-3xl font-extrabold tracking-tight text-foreground md:text-4xl lg:text-5xl">
             Ils nous font confiance
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-pretty text-base leading-relaxed text-muted-foreground md:text-lg">

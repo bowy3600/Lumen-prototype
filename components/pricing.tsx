@@ -62,7 +62,7 @@ export function Pricing() {
           <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">
             Tarifs
           </p>
-          <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl lg:text-5xl">
+          <h2 className="text-balance text-3xl font-extrabold tracking-tight text-foreground md:text-4xl lg:text-5xl">
             Des offres claires, sans surprise
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-pretty text-base leading-relaxed text-muted-foreground md:text-lg">
@@ -89,7 +89,7 @@ export function Pricing() {
                 )}
 
                 <div className="mb-6">
-                  <h3 className="text-lg font-semibold text-foreground">
+                  <h3 className="text-lg font-bold text-foreground">
                     {plan.name}
                   </h3>
                   <p className="mt-1 text-sm text-muted-foreground">

@@ -45,7 +45,7 @@ export function FAQ() {
           <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">
             FAQ
           </p>
-          <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl lg:text-5xl">
+          <h2 className="text-balance text-3xl font-extrabold tracking-tight text-foreground md:text-4xl lg:text-5xl">
             Questions frequentes
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-pretty text-base leading-relaxed text-muted-foreground md:text-lg">
@@ -62,7 +62,7 @@ export function FAQ() {
               value={`item-${i}`}
               className="border-b border-border/40 py-1"
             >
-              <AccordionTrigger className="py-5 text-left text-base font-semibold text-foreground hover:no-underline md:text-lg">
+              <AccordionTrigger className="py-5 text-left text-base font-bold text-foreground hover:no-underline md:text-lg">
                 {faq.question}
               </AccordionTrigger>
               <AccordionContent className="text-sm leading-relaxed text-muted-foreground md:text-base">

@@ -33,7 +33,7 @@ export function Services() {
           <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">
             Nos services
           </p>
-          <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl lg:text-5xl">
+          <h2 className="text-balance text-3xl font-extrabold tracking-tight text-foreground md:text-4xl lg:text-5xl">
             {"Une expertise 360\u00B0"}
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-pretty text-base leading-relaxed text-muted-foreground md:text-lg">
@@ -47,7 +47,7 @@ export function Services() {
           <StaggerChild index={0} className="md:col-span-2 lg:col-span-1">
             <div className="flex h-full flex-col justify-between rounded-3xl border border-border/30 bg-background/80 p-6 shadow-lg shadow-foreground/[0.03] backdrop-blur-sm md:p-8">
               <div>
-                <h3 className="text-xl font-semibold text-foreground md:text-2xl">
+                <h3 className="text-xl font-bold text-foreground md:text-2xl">
                   Comptabilite Augmentee
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-muted-foreground md:text-base">
@@ -91,7 +91,7 @@ export function Services() {
               <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10">
                 <Shield className="h-7 w-7 text-primary drop-shadow-[0_0_8px_rgba(66,66,205,0.4)]" />
               </div>
-              <h3 className="mt-5 text-xl font-semibold text-foreground md:text-2xl">
+              <h3 className="mt-5 text-xl font-bold text-foreground md:text-2xl">
                 Optimisation Fiscale
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground md:text-base">
@@ -113,7 +113,7 @@ export function Services() {
               <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10">
                 <Sparkles className="h-7 w-7 text-primary drop-shadow-[0_0_8px_rgba(66,66,205,0.4)]" />
               </div>
-              <h3 className="mt-5 text-xl font-semibold text-foreground md:text-2xl">
+              <h3 className="mt-5 text-xl font-bold text-foreground md:text-2xl">
                 Conseil Decisionnel
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground md:text-base">

@@ -12,6 +12,7 @@ import { SectionWrapper, StaggerChild } from "@/components/section-wrapper"
 import { MagneticButton } from "@/components/magnetic-button"
 import { CTAModal } from "@/components/cta-modal"
 import { Button } from "@/components/ui/button"
+import { NeonOrbs } from "@/components/ui/neon-orbs"
 
 const barData = [
   { v: 40 }, { v: 65 }, { v: 50 }, { v: 80 }, { v: 60 }, { v: 90 }, { v: 75 },
@@ -22,8 +23,11 @@ const lineData = [
 
 export function Services() {
   return (
-    <SectionWrapper id="services" className="bg-background py-16 md:py-24">
-      <div className="mx-auto max-w-7xl px-4 md:px-6">
+    <SectionWrapper id="services" className="relative bg-white py-16 md:py-24 overflow-hidden">
+      <div className="absolute inset-0 z-0">
+        <NeonOrbs showText={false} backgroundColor="bg-white" orbColor="#4242cd" />
+      </div>
+      <div className="relative z-10 mx-auto max-w-7xl px-4 md:px-6">
         {/* Header */}
         <div className="mb-12 text-center md:mb-16">
           <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">

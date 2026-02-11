@@ -4,17 +4,17 @@ import { ArrowRight } from "lucide-react"
 import { SectionWrapper } from "@/components/section-wrapper"
 import { MagneticButton } from "@/components/magnetic-button"
 import { CTAModal } from "@/components/cta-modal"
+import { GeometricSphere } from "@/components/ui/geometric-sphere"
 
 export function FinalCTA() {
   return (
-    <SectionWrapper className="relative overflow-hidden py-20 md:py-32">
-      {/* Background gradient */}
-      <div
-        aria-hidden="true"
-        className="absolute inset-0 bg-gradient-to-b from-background via-accent/30 to-background"
-      />
+    <SectionWrapper className="relative overflow-hidden py-20 md:py-32 bg-white">
+      {/* Background animation */}
+      <div className="absolute inset-0 z-0">
+        <GeometricSphere showContent={false} backgroundColor="bg-white" />
+      </div>
 
-      <div className="relative mx-auto max-w-3xl px-4 text-center md:px-6">
+      <div className="relative z-10 mx-auto max-w-3xl px-4 text-center md:px-6">
         <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl lg:text-5xl">
           {"Pret a deleguer votre complexite ?"}
         </h2>
